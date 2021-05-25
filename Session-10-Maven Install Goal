@@ -1,0 +1,15 @@
+-----------------------------
+Last Session-09-Maven goals
+-----------------------------
+
+->Maven provided several goal to perform application build process
+->Every maven goal having its plugin to perform the actual operation
+1)clean 
+2)compile
+3)test
+4)package
+
+------------------------------------------
+Session-10-Maven install goal
+------------------------------------------
+

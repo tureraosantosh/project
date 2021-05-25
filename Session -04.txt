@@ -1,0 +1,22 @@
+Session -03 Part - 01 (Software Industry Details)
+----------------------------------------------------
+
+-> Software compaines can be categorized into 3 types
+            1)Product Based compaines.
+            2)Service Based compaines.
+            3)OutSourcing compaines.
+
+->The compaines which will develop Product and selling to the people
+in the market is called as Product Based compaines.
+
+-> For Product Based compaines clients will not be available they will have only customers
+                    ex. microsoft,HP,IBM,Google etc
+
+-> In Product Based compaines constarate on below concepts.
+        1)Data Structure.
+        2)Algorithm.
+        3)Design patern.
+        4)System Design.
+        5)Problem solving.
+Note : In Product based compaines conduct coding test, using hackrank and hackearth.
+
