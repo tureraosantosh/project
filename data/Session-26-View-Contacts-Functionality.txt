@@ -1,0 +1,3 @@
+Session-26-View-Contacts-Functionality
+--------------------------------------------------
+-> When user click on 'View Contacts' hyperlink we have to retrieve all contact records available in database and we have to display in jsp page in table format.

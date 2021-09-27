@@ -1,0 +1,57 @@
+Session-15.1-Create-Repo-On-LocalRepo.
+----------------------------------------------------------
+
+git init  - it is used to create  empty repository or re-initilize  exiting repository
+
+Staged Files.
+---------------------------
+Files which are added and ready to commit in localRepository.
+These file name will be display in green color.
+
+Un-Staged
+--------------------------------------------
+modified files will be displayed here , we need to stage these file to commit 
+
+these file names will be red color.
+
+Un-Tracked 
+---------------------------------------
+newly created file, we need to stage them to commit.
+these files will show in red color.
+
+git add: this command will be used to add file in the staging area.
+
+            Sysntax: git add filename
+            Syntax : git add --a
+            Syntax : git add * 
+
+git rm: this command is used to unstage file , it will be in red color.
+        Syntax: git rm --cached filename
+        Sysntax: git rm --cached *
+
+git commit: saving changes in local repository.
+
+           Syntax : git commit -m"jira ticket and why we are commiting"
+           
+           localRepository will be available in only local machin.
+
+git remote : to mapping localRepository to remote repository (One time Activity)
+
+           Syntax : git remote add origin remoteURL.
+           Example: git remote add origin https://github.com/tureraosantosh/demo.git
+
+git reset: to file move from stage area to unstage area.
+
+           Syntax : 
+           git reset head filename
+           git restore --staged  filename.
+
+git restore: to discard changes in working directory.
+
+            Syntax:
+              git restore  filename
+
+
+     
+
+ 

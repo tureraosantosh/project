@@ -1,0 +1,11 @@
+Session-15.2-Git-Working-With-Branch.
+=======================================
+git log: to check commit history.
+  
+   Syntax : git log
+
+In commit Log it will display below information.
+            a)commit-id.
+            b)author.
+            c)timestamp
+            d)commit msg.

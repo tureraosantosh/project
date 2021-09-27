@@ -1,0 +1,14 @@
+server:
+  port: 9090
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: tureraosantosh@gmail.com
+    password: Mumbai@123
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true
+          auth: true

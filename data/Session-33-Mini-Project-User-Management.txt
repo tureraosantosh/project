@@ -1,0 +1,14 @@
+Last session : Duplicate Record and Server Side Validations
+------------------------------------------------------------------------
+Today's Session-33-Mini-Project-User-Management
+-----------------------------------------------------------------------
+
+-> 02-Mini-Project is all about User Management.
+
+-> We will have below functionalities in 02-Mini-Project
+
+		1) User Registration
+		2) User Registration Email
+		3) Lock & Unlock Account
+		4) User Login
+		5) Forgot Password

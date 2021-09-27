@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+	crossorigin="anonymous">
+</head>
+<body>
+
+	<h1>Add Book</h1>
+
+	<form th:action="@{/addBook}" th:object="${book}" method="post">
+
+		<table class="table">
+			<thead></thead>
+			<tbody>
+
+				<tr>
+					<td>Book Name</td>
+					<td><input type="text" th:field="*{bookName}" /></td>
+				</tr>
+				<tr>
+					<td>Book Price</td>
+					<td><input type="text" th:field="*{bookPrice}" /></td>
+				</tr>
+
+				<tr>
+					<td>Book Author</td>
+					<td><input type="text" th:field="*{author}" /></td>
+				</tr>
+
+				<tr>
+					<td><input type="submit" value="save" /></td>
+					<td><input type="reset" value="reset" /></td>
+
+				</tr>
+			</tbody>
+		</table>
+	</form>
+
+</body>
+</html>
